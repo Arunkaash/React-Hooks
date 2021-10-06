@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
+/* counter css */
+/* body{
+   background-color: #50E3C2;
+    background-image: 
+        radial-gradient(at 47% 33%, hsl(162.00, 77%, 40%) 0, transparent 59%), 
+        radial-gradient(at 82% 65%, hsl(198.00, 100%, 50%) 0, transparent 55)
+  
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.counterContainer{ */
+  /* width: 400px; */
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.counterbody{
+  margin-top: 250px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 400px;
+     backdrop-filter: blur(3px) saturate(27%);
+    -webkit-backdrop-filter: blur(3px) saturate(27%);
+    background-color: rgba(255, 255, 255, 0.51);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+}
+.button{
+  width: 200px;
+  height: 30px;
+     backdrop-filter: blur(2px) saturate(180%);
+    -webkit-backdrop-filter: blur(2px) saturate(180%);
+    background-color: rgba(2, 28, 172, 0.66);
+    border-radius: 12px;
+} */
+
+
+/* Digital clock */
+ body{
+   background-color: #9bb3ad;
+    background-image: 
+        radial-gradient(at 47% 33%, hsl(162.00, 77%, 40%) 0, transparent 59%), 
+        radial-gradient(at 82% 65%, hsl(198.00, 100%, 50%) 0, transparent 55)
+  
+}
+.mainCon{
+  height: 99vh;
+  display: flex;    
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.digitalCon{
+  display: flex;
+  justify-content: center;
+  width: 400px;
+  height: 100px;
+     backdrop-filter: blur(3px) saturate(27%);
+    -webkit-backdrop-filter: blur(3px) saturate(27%);
+    background-color: rgba(255, 255, 255, 0.363);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.185);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 10;
+  font-size: 11px;
+  opacity: .4;
+  color: #ffff;
 }
