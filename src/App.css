@@ -36,7 +36,7 @@
 
 
 /* Digital clock */
- body{
+ /* body{
    background-color: #9bb3ad;
     background-image: 
         radial-gradient(at 47% 33%, hsl(162.00, 77%, 40%) 0, transparent 59%), 
@@ -68,4 +68,67 @@
   font-size: 11px;
   opacity: .4;
   color: #ffff;
+} */
+
+/* ****************************bg Chnager Css******************************** */
+/* .container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button{
+  font-size: 20px;
+  width: 200px;
+  height: 80px;
+  border-radius: 15px;
+
+} */
+
+/* ****************************input Display Css******************************** */
+/* Background styles */
+body {
+    background-image: url('https://source.unsplash.com/7Q2do6M00vM/1600x900');
+    background-size: cover;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+.container{
+  /* Glassmorphism card effect */
+    backdrop-filter: blur(16px) saturate(121%);
+    -webkit-backdrop-filter: blur(16px) saturate(121%);
+    background-color: rgba(255, 255, 255, 0.44);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    width: 500px;
+    height: 300px;
+    margin-top: 100px;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.inputBox{
+  width: 400px;
+  height: 30px;
+  border-radius: 2px;
+  text-align: center;
+
+  
+}
+
+.button{
+  margin-top: 15px;
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
 }

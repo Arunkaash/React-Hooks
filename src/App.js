@@ -1,10 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-import DigitalClock from './DigitalClock'
+import InputDisplay from './InputDisplay';
 
 function App() {
   return (
-    <DigitalClock/>
+    <InputDisplay/>
   );
 }
 
